@@ -1,0 +1,189 @@
+@import url(https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap);
+
+*{
+    font-family: 'Montserrat';
+}
+
+body {
+    margin: 0 auto;
+    width: 100%;
+}
+
+section.top-page {
+    font-size: 15px;
+    padding: 30px 50px;
+    display: flex;
+    align-items: center;
+    /* background-color: rgb(0, 0, 0); */
+}
+
+
+section.menu {
+    display: flex;
+    justify-content: center;
+    justify-content:space-between;
+    width: 900px;
+    list-style-type: none;
+    text-align: center;
+    margin-left: 15%;
+    align-items: center;
+    margin-right: 0, auto;
+
+    /* background-color: rgb(21, 34, 44); */
+}
+
+.txt-menu {
+    text-decoration: none;
+    color: black;
+
+}
+
+.material-symbols-outlined {
+    cursor: pointer;
+    color: black;
+    
+}
+
+.logo {
+    width: 80px;
+    padding : 0;
+    text-align: center; 
+    overflow: hidden; 
+    cursor: pointer;
+}
+
+section.news {
+    /* background-color: rgb(27, 210, 223); */
+    background-size: cover;
+    height: 300px;
+    margin-top: 150px;
+}
+
+.title-1 {
+    padding: 30px;
+    font-size: 35px;
+}
+
+#wrap {
+    margin: 0;
+    z-index: 90;
+    position: relative;
+    margin-top: -55px;
+  }
+  .navbar {
+    height: 50px;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+  }
+  .navbar li {
+    height: auto;
+    width: 135.8px;
+    float: left;
+    text-align: center;
+    list-style: none;
+    font: normal bold 13px/1em Arial, Verdana, Helvetica;
+    padding: 0;
+    margin: 0;
+  }
+  .navbar a {
+    padding: 18px 0px;
+    border-left: 1px solid white;
+    text-decoration: none;
+    color: black;
+    display: block;
+  }
+  .navbar li:hover,
+  a:hover {
+    background-color: white
+  }
+  .navbar li ul {
+    display: none;
+    height: auto;
+    margin: 0;
+    padding: 0;
+  }
+  .navbar li:hover ul {
+    display: block;
+  }
+  .navbar li ul li {
+    background-color: white;
+  }
+  .navbar li ul li a {
+    border-left: 1px solid white;
+    border-right: 1px solid white;
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+  }
+  .navbar li ul li a:hover {
+    background-color: white;
+  }
+
+  .news-list {
+    /* background-color: brown; */
+    display: flex;
+    justify-content: center;
+    justify-content:space-between;
+    min-height: 700px;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 30px;
+}
+
+
+.image-box {
+  position: relative;
+  background-size: cover;
+  background-position: center;
+  text-decoration: none;
+  color: black;
+  border-radius: 20px;
+}
+
+.no-grid {
+  min-width: 500px;
+  max-width: 600px;
+  height: 300px;
+  flex: 1;
+}
+
+.image1 {
+  background-image: url('https://cdn.pixabay.com/photo/2022/02/26/21/03/sheet-music-7036343_1280.jpg');
+}
+
+.image2{
+  background-image: url('https://upload.wikimedia.org/wikipedia/commons/c/cc/VisualStudioCodeHTML.png');
+}
+
+.image3{
+  background-image: url('https://live.staticflickr.com/7059/6941619425_ee74761903_c.jpg');
+}
+
+.image4{
+  background-image: url('https://photos.gammvert.fr/v5/section/subsection_620/5081-toutes-nos-plantes-dinterieur.jpg');
+}
+
+.image-details {
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  background-color: #FFFFFFDF;
+
+}
+
+.image-name{
+  font-size: 22px;
+  font-weight: 600;
+  line-height: 3px;
+  margin: 15px;
+  padding: 5px;
+}
+
+.image-info {
+  color: rgb(31, 160, 160);
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 10px;
+  margin: 15px;
+}
